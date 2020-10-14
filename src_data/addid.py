@@ -1,6 +1,6 @@
 import csv
 
-with open("msrptrain.csv", 'rt') as input, open('temp.csv', 'wt') as output:
+with open("combined.csv", 'rt') as input, open('msrp.csv', 'wt') as output:
     reader = csv.reader(input, delimiter = ',')
     writer = csv.writer(output, delimiter = ',')
 
